@@ -1,0 +1,27 @@
+name: auto_play_video_sample
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  media_kit: ^1.1.8
+  media_kit_video: ^1.2.1
+  media_kit_libs_video: ^1.0.3
+  scrollable_positioned_list: ^0.3.8
+  kartal: ^3.4.4
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
